@@ -34,7 +34,7 @@ to use a flavor, follow the install instructions above but download the flavor t
 
 ## discord server
 
-need help? want to give feedback? want to be notified about upcoming changes? join <https://discord.gg/r65xX8wpUa>
+need help? want to give feedback? want to be notified about upcoming changes? join <https://discord.gg/nz87hXyvcy>
 
 ## contributing
 
@@ -51,3 +51,11 @@ DEV_OUTPUT_PATH=C:\Users\USERNAME\AppData\Roaming\Vencord\themes\midnight-dev.th
 4. run `npm run dev`.
 5. make changes to any file in `/src` or the main theme file. the local theme files you listed will automatically be updated, along with the build file in `/build`.
 6. make a pull request with your changes!
+
+## credits
+
+original design inspired by <https://github.com/schnensch0/zelk>
+
+window controls inspired by <https://github.com/Dyzean/Tokyo-Night>
+
+thanks to all the [contributors](https://github.com/l-limon-l/midnight-discord/graphs/contributors)!

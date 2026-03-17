@@ -419,36 +419,9 @@ body {
 .standardSidebarView__23e6b .sidebarRegionScroller__23e6b > div {
     background: transparent !important;
 }
-/* kill the settings sidebar shadow layer */
-.standardSidebarView__23e6b .fixedContent__409aa,
-.standardSidebarView__23e6b .fixedContent__409aa::after,
-.standardSidebarView__23e6b .fixedContent__409aa::before,
-.standardSidebarView__23e6b .fixedContent__409aa.fixedContent__409aa::after,
-.standardSidebarView__23e6b .fixedContent__409aa.fixedContent__409aa::before,
-[class*="standardSidebarView_"] [class*="fixedContent_"],
-[class*="standardSidebarView_"] [class*="fixedContent_"]::after,
-[class*="standardSidebarView_"] [class*="fixedContent_"]::before {
-    background: none !important;
-    box-shadow: none !important;
-    filter: none !important;
-}
-.standardSidebarView__23e6b .fixedContent__409aa::after,
-.standardSidebarView__23e6b .fixedContent__409aa::before,
-.standardSidebarView__23e6b .fixedContent__409aa.fixedContent__409aa::after,
-.standardSidebarView__23e6b .fixedContent__409aa.fixedContent__409aa::before,
-[class*="standardSidebarView_"] [class*="fixedContent_"]::after,
-[class*="standardSidebarView_"] [class*="fixedContent_"]::before {
-    display: none !important;
-    content: none !important;
-    height: 0 !important;
-    opacity: 0 !important;
-    visibility: hidden !important;
-}
-/* hard kill any fixedContent shadow pseudo-element (Discord updates) */
+/* hard kill fixedContent shadow ::after (Discord updates) */
 #app-mount .fixedContent__409aa::after,
-#app-mount .fixedContent__409aa::before,
-#app-mount [class*="fixedContent_"]::after,
-#app-mount [class*="fixedContent_"]::before {
+#app-mount [class*="fixedContent_"]::after {
     display: none !important;
     content: none !important;
     background: none !important;

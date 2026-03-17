@@ -326,11 +326,137 @@ body {
 .standardSidebarView__23e6b [class*="searchBar"] * {
     box-shadow: none !important;
     filter: none !important;
+    background: none !important;
 }
 .standardSidebarView__23e6b [class*="searchBar"]::before,
-.standardSidebarView__23e6b [class*="searchBar"]::after {
+.standardSidebarView__23e6b [class*="searchBar"]::after,
+.standardSidebarView__23e6b::before,
+.standardSidebarView__23e6b::after,
+.standardSidebarView__23e6b .sidebarRegionScroller__23e6b::before,
+.standardSidebarView__23e6b .sidebarRegionScroller__23e6b::after {
     box-shadow: none !important;
     filter: none !important;
+    background: none !important;
+}
+/* remove settings sidebar header block behind search bar */
+.standardSidebarView__23e6b :has(> [class*="searchBar"]) {
+    background: none !important;
+    box-shadow: none !important;
+    filter: none !important;
+}
+.standardSidebarView__23e6b :has(> [class*="searchBar"])::before,
+.standardSidebarView__23e6b :has(> [class*="searchBar"])::after {
+    background: none !important;
+    box-shadow: none !important;
+    filter: none !important;
+}
+/* remove settings profile card block behind search */
+.standardSidebarView__23e6b .accountProfileCard__1fed1 {
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.standardSidebarView__23e6b .accountProfileCard__1fed1::before,
+.standardSidebarView__23e6b .accountProfileCard__1fed1::after {
+    background: none !important;
+    box-shadow: none !important;
+}
+/* remove settings sidebar header block and divider below profile */
+.standardSidebarView__23e6b .sidebar__409aa {
+    background: none !important;
+    box-shadow: none !important;
+}
+.standardSidebarView__23e6b .sidebar__409aa::before,
+.standardSidebarView__23e6b .sidebar__409aa::after {
+    background: none !important;
+    box-shadow: none !important;
+}
+.standardSidebarView__23e6b .sidebar__409aa [class*="divider"] {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+/* settings header/search shadow fix (scoped to settings) */
+.standardSidebarView__23e6b [class^="searchBar_"],
+.standardSidebarView__23e6b [class*=" searchBar_"],
+.standardSidebarView__23e6b [class^="header_"],
+.standardSidebarView__23e6b [class*=" header_"],
+.standardSidebarView__23e6b .children_fc4f04::after,
+.standardSidebarView__23e6b [class^="children_"]::after,
+.standardSidebarView__23e6b [class*=" children_"]::after {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    background-image: none !important;
+    background: none !important;
+    background-color: transparent !important;
+}
+/* settings sidebar shadow cleanup (aggressive) */
+.standardSidebarView__23e6b [class*="searchBar_"] {
+    box-shadow: none !important;
+    border-bottom: none !important;
+    background-image: none !important;
+}
+.standardSidebarView__23e6b [class*="sidebarRegionScroller_"]::before,
+.standardSidebarView__23e6b [class*="sidebarRegionScroller_"]::after,
+.standardSidebarView__23e6b [class*="scrollerBase_"]::before,
+.standardSidebarView__23e6b [class*="scrollerBase_"]::after {
+    display: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.standardSidebarView__23e6b [class*="separator_"],
+.standardSidebarView__23e6b [class*="divider_"] {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+/* remove solid block behind settings sidebar content */
+.standardSidebarView__23e6b .sidebarRegion__23e6b,
+.standardSidebarView__23e6b .sidebarRegionScroller__23e6b {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.standardSidebarView__23e6b .sidebarRegion__23e6b > div,
+.standardSidebarView__23e6b .sidebarRegionScroller__23e6b > div {
+    background: transparent !important;
+}
+/* kill the settings sidebar shadow layer */
+.standardSidebarView__23e6b .fixedContent__409aa,
+.standardSidebarView__23e6b .fixedContent__409aa::after,
+.standardSidebarView__23e6b .fixedContent__409aa::before,
+.standardSidebarView__23e6b .fixedContent__409aa.fixedContent__409aa::after,
+.standardSidebarView__23e6b .fixedContent__409aa.fixedContent__409aa::before,
+[class*="standardSidebarView_"] [class*="fixedContent_"],
+[class*="standardSidebarView_"] [class*="fixedContent_"]::after,
+[class*="standardSidebarView_"] [class*="fixedContent_"]::before {
+    background: none !important;
+    box-shadow: none !important;
+    filter: none !important;
+}
+.standardSidebarView__23e6b .fixedContent__409aa::after,
+.standardSidebarView__23e6b .fixedContent__409aa::before,
+.standardSidebarView__23e6b .fixedContent__409aa.fixedContent__409aa::after,
+.standardSidebarView__23e6b .fixedContent__409aa.fixedContent__409aa::before,
+[class*="standardSidebarView_"] [class*="fixedContent_"]::after,
+[class*="standardSidebarView_"] [class*="fixedContent_"]::before {
+    display: none !important;
+    content: none !important;
+    height: 0 !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+/* hard kill any fixedContent shadow pseudo-element (Discord updates) */
+#app-mount .fixedContent__409aa::after,
+#app-mount .fixedContent__409aa::before,
+#app-mount [class*="fixedContent_"]::after,
+#app-mount [class*="fixedContent_"]::before {
+    display: none !important;
+    content: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    filter: none !important;
+    height: 0 !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
 }
 /* show window controls only on the main app container */
 .winButtons_c38106,

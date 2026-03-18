@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="800" src="[https://raw.githubusercontent.com/l-limon-l/midnight-discord/refs/heads/main/assets/preview.png](https://raw.githubusercontent.com/l-limon-l/midnight-discord/refs/heads/main/assets/preview.png)" alt="midnight preview">
+  <img width="800" src="https://raw.githubusercontent.com/l-limon-l/midnight-discord/refs/heads/main/assets/preview.png" alt="midnight preview">
 
   # 🌙 midnight
 
@@ -7,7 +7,7 @@
 
   ![Vencord](https://img.shields.io/badge/Supported-Vencord-blueviolet?style=flat-square)
   ![BetterDiscord](https://img.shields.io/badge/Supported-BetterDiscord-blue?style=flat-square)
-  [![Discord Server](https://img.shields.io/discord/r65xX8wpUa?color=7289da&logo=discord&logoColor=white&style=flat-square)]([https://discord.gg/r65xX8wpUa](https://discord.gg/r65xX8wpUa))
+  [![Discord Server](https://img.shields.io/discord/r65xX8wpUa?color=7289da&logo=discord&logoColor=white&style=flat-square)](https://discord.gg/r65xX8wpUa)
 </div>
 
 ---
@@ -23,7 +23,7 @@ This theme is officially tested and supported on:
 
 ### Method 1: Theme File
 
-1. Download the theme file: [`midnight.theme.css`]([https://github.com/l-limon-l/midnight-discord/blob/main/themes/midnight.theme.css](https://github.com/l-limon-l/midnight-discord/blob/main/themes/midnight.theme.css)). *(There should be a download button at the top right of the page).*
+1. Download the theme file: [`midnight.theme.css`](https://github.com/l-limon-l/midnight-discord/blob/main/themes/midnight.theme.css). *(There should be a download button at the top right of the page).*
 2. Open your client's settings, find the **Themes** section, and open your theme folder.
 3. Drag and drop the downloaded file into this folder.
 4. *(Optional)* Customize the theme by editing the variables inside `midnight.theme.css`.

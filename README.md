@@ -5,9 +5,9 @@
 
   *A dark, highly customizable Discord theme.*
 
-  ![Vencord](https://img.shields.io/badge/Vencord-Supported?style=flat&logo=vencord&logoColor=%23FFFFFF&color=%23EB7396&link=https%3A%2F%2Fbetterdiscord.app%2F)
-  ![BetterDiscord](https://img.shields.io/badge/BetterDiscord-Supported?style=flat&logo=betterdiscord&logoColor=%23FFFFFF&color=%233E82E5&link=https%3A%2F%2Fbetterdiscord.app%2F)
-  ![Discord Server](https://img.shields.io/discord/931489209645158420?style=flat&logo=discord&label=Discord&link=https%3A%2F%2Fdiscord.gg%2Fr65xX8wpUa)
+  [![Vencord](https://img.shields.io/badge/Vencord-Supported?style=flat&logo=vencord&logoColor=%23FFFFFF&color=%23EB7396&link=https%3A%2F%2Fbetterdiscord.app%2F)](https://vencord.dev/)
+  [![BetterDiscord](https://img.shields.io/badge/BetterDiscord-Supported?style=flat&logo=betterdiscord&logoColor=%23FFFFFF&color=%233E82E5&link=https%3A%2F%2Fbetterdiscord.app%2F)](https://betterdiscord.app/)
+  [![Discord Server](https://img.shields.io/discord/931489209645158420?style=flat&logo=discord&label=Discord&link=https%3A%2F%2Fdiscord.gg%2Fr65xX8wpUa)](https://discord.gg/r65xX8wpUa)
 </div>
 
 ---

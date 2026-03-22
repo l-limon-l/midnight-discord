@@ -153,3 +153,14 @@ body {
 .divider__908e2:not(.isUnread__908e2) {
     border-color: var(--bg-2);
 }
+
+/* hotfix: normalize store card colors */
+@container root style(--colors: on) {
+    body,
+    .theme-dark:not(.custom-user-profile-theme),
+    .theme-light:not(.custom-user-profile-theme) {
+        --card-secondary-bg: var(--bg-3);
+        --card-secondary-pressed-bg: var(--bg-2);
+        --card-primary-pressed-bg: var(--bg-2);
+    }
+}

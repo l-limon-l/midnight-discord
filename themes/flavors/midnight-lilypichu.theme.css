@@ -150,3 +150,14 @@ body {
     --purple-4: hsl(280, 45%, 45%);
     --purple-5: hsl(280, 45%, 40%);
 }
+
+/* hotfix: normalize store card colors */
+@container root style(--colors: on) {
+    body,
+    .theme-dark:not(.custom-user-profile-theme),
+    .theme-light:not(.custom-user-profile-theme) {
+        --card-secondary-bg: var(--bg-3);
+        --card-secondary-pressed-bg: var(--bg-2);
+        --card-primary-pressed-bg: var(--bg-2);
+    }
+}

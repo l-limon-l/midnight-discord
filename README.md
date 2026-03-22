@@ -35,6 +35,10 @@ Add the following line to your theme import links or QuickCSS:
 ```css
 https://l-limon-l.github.io/midnight-discord/build/midnight.css
 ```
+Or
+```css
+@import url("https://l-limon-l.github.io/midnight-discord/build/midnight.css");
+```
 
 > [!NOTE]
 > If you use this method, you will need to copy the theme variables directly into your QuickCSS in order to customize the theme.
